@@ -1,0 +1,33 @@
+.todo__delete {
+  width: 594px;
+  height: 75px;
+  background: #f5f5f5;
+  border-radius: 0px 0px 16px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+  margin: 32px 0px 0px 0px;
+}
+
+.todo__delete > button {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  border: 0px;
+  border-radius: 4px;
+  margin: 18px 24px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.todo__deleteCheckbox {
+  background: #6c757d;
+}
+
+.todo__deleteAll {
+  background: red;
+}

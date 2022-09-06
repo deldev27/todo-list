@@ -1,0 +1,40 @@
+.todo__list {
+  width: 594px;
+  height: 21px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #54595e;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  margin: 26px 0px 0px 0px;
+}
+
+.todo__checkbox:checked + span {
+  color: #54595e;
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.todo__list > input {
+  margin: 0px 16px 0px 24px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #abb5be;
+  border-radius: 2px;
+  accent-color: #7749f8;
+}
+
+.todo__list--active {
+  margin: 0px 24px 0px auto;
+  width: 16px;
+  height: 21px;
+  border: 0px;
+  background: none;
+  cursor: pointer;
+}

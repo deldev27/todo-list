@@ -1,0 +1,10 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  height: 100vh;
+}
